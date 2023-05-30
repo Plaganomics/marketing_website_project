@@ -18,15 +18,15 @@ const cardData: ISectionCardData[] = [
         heading: 'Ironclad security',
         body: <>
             We implement enterprise-grade data
-            <br/> encryption and security controls to
-            <br/> protect your data.
+            encryption and security controls to
+            protect your data.
         </>,
         imagePath: '/assets/secure.svg',
     },
     {
         heading: 'Safeguarded funds',
         body: <>
-            As legally required, funds collected by <br/>
+            As legally required, funds collected by
             iBanFirst are held in separate accounts,
             at leading EU banks.
         </>,

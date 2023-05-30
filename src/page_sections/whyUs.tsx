@@ -1,4 +1,4 @@
-import styles from '../styles/partnerWithUs.module.css';
+import styles from '../styles/whyUs.module.css';
 
 /*
 * MUI
@@ -12,10 +12,10 @@ const cardData: ISectionCardData[] = [
         isDark: true,
         heading: 'Powerhouse infrastructure',
         body: <>
-            Our extensive network of local and <br/> international banks
-            and FX partners allow us <br/> to use the fastest and
-            most cost-effective <br/> cross-border payment routes
-            for your <br/> business, every single time.
+            Our extensive network of local and international banks
+            and FX partners allow us to use the fastest and
+            most cost-effective cross-border payment routes
+            for your business, every single time.
         </>,
         imagePath: '/assets/world.svg',
     },
@@ -24,9 +24,9 @@ const cardData: ISectionCardData[] = [
         heading: 'Unparalleled expertise',
         body: <>
             With our skilled FX specialists working as an extension
-            of your team, we help you <br/> navigate
-            FX market intricacies with <br/>confidence
-            and make well-informed<br/> decisions for
+            of your team, we help you  navigate
+            FX market intricacies with confidence
+            and make well-informed decisions for
             your business.
         </>,
         imagePath: '/assets/peace_of_mind.svg',
