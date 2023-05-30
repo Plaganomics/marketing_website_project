@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+
+
+    background: url('/assets/frame_vertical.png') no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.img_container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+.img_container>img{
+    width: 60%;
+    height: 65%;
+    margin: auto;
+}
+
+.text_container{
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

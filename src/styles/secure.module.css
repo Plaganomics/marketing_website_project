@@ -1,0 +1,32 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    background: url('/assets/frame_horizontal.png') no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.heading{
+    letter-spacing: -0.02em;
+    color: #FFFDF7;
+    margin: 8% 0 6%;
+    padding-left: 8%;
+}
+
+.card_container{
+    width: 70%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    grid-template-columns: .8fr .8fr .8fr;
+    grid-gap: 2em;
+}
+

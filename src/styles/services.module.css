@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: AtypDisplaySemiBold;
+    src: url("/fonts/AtypDisplay-SemiBold.ttf");
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: hidden;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container>div{
+    margin: auto 8%;
+}
+
+.text_container{
+    height: 100%;
+    padding-top: 6em;
+    display: grid;
+    grid-template-rows: .2fr 1fr 2.5fr;
+    grid-gap: 1em;
+}
+
+.text_container>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #140309;
+}
+
+.text_container>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #140309;
+}
+
+.text_container>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.text_with_icon_link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container>img{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.custom_link{
+    color: #8f41ff;
+    font-family: AtypDisplaySemiBold, sans-serif;
+    /*font-weight: 700;*/
+    text-decoration-color: #8f41ff;
+    text-underline-offset: .3em;
+}

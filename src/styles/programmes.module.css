@@ -1,0 +1,34 @@
+.sectionContainer{
+    width: 100vw;
+    height: 95vh;
+
+    background: url('/assets/frame_horizontal.png') no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.sectionHeading{
+    width: 90%;
+    display: flex;
+    padding-left: 8%;
+    margin-bottom: 4em;
+}
+
+.sectionCards{
+    width: 75%;
+    height: 50%;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: .8fr .8fr .8fr;
+    grid-gap: 2em;
+}
+
+
